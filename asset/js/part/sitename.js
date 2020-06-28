@@ -1,17 +1,1 @@
-import part from "../common/part.js";
-
-let tag = 'sitename';
-let element = null;
-
-const init = (params, callback) => {
-  part(tag, el => {
-    element = el;
-    document.querySelector(tag) && document.querySelector(tag).replaceWith(element);
-    callback && callback(element);
-  });
-};
-
-export default {
-  tag,
-  init
-};
+!function(){return function e(t,r,o){function n(s,a){if(!r[s]){if(!t[s]){var d="function"==typeof require&&require;if(!a&&d)return d(s,!0);if(u)return u(s,!0);var i=new Error("Cannot find module '"+s+"'");throw i.code="MODULE_NOT_FOUND",i}var c=r[s]={exports:{}};t[s][0].call(c.exports,function(e){return n(t[s][1][e]||e)},c,c.exports,e,t,r,o)}return r[s].exports}for(var u="function"==typeof require&&require,s=0;s<o.length;s++)n(o[s]);return n}}()({1:[function(e,t,r){"use strict";Object.defineProperty(r,"__esModule",{value:!0});r.default=(e=>{if(!e.method||!e.url)return;let t=new XMLHttpRequest;if(t.open(e.method,e.url+"?"+(e=>{if("object"!=typeof e)return"";let t=[];for(const r in e)if(e.hasOwnProperty(r)){const o=e[r];t.push(window.encodeURIComponent(r)+"="+window.encodeURIComponent(o))}return t.join("&")})(e.data)),t.timeout=3e4,"post"===e.method.toLowerCase()&&t.setRequestHeader("Content-type","application/x-www-form-urlencoded"),e.headers)for(const r in e.headers)e.headers.hasOwnProperty(r)&&t.setRequestHeader(r,e.headers[r]);e.timeout&&(t.timeout=e.timeout),e.dataType&&(t.responseType=e.dataType),t.addEventListener("readystatechange",()=>{4===t.readyState&&200===t.status&&t.response?e.success&&e.success(t.response):t.status>400&&e.error(t.status)}),e.error&&(t.addEventListener("error",t=>{e.error(t)}),t.addEventListener("timeout",t=>{e.error(t)})),t.send(e.data?e.data:null)})},{}],2:[function(e,t,r){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.default=function(e,t){let r=document.querySelector(`.p-${e}`);r?(t&&t(r),r.classList.remove("HIDE")):(0,u.default)({url:`/asset/part/${e}.html`,method:"get",dataType:"document",success(e){t&&t(e.body.firstElementChild)}})};var o,n=e("./ajax.js"),u=(o=n)&&o.__esModule?o:{default:o}},{"./ajax.js":1}],3:[function(e,t,r){"use strict";Object.defineProperty(r,"__esModule",{value:!0});var o,n=e("../common/part.js"),u=(o=n)&&o.__esModule?o:{default:o};let s="sitename",a=null;r.default={tag:s,init:(e,t)=>{(0,u.default)(s,e=>{a=e,document.querySelector(s)&&document.querySelector(s).replaceWith(a),t&&t(a)})}}},{"../common/part.js":2}]},{},[3]);
