@@ -8,7 +8,15 @@
     </url>
 
     <url>
-        <loc>http://fxblog.cbomc.top/posts/00009/</loc>
+        <loc>http://fxblog.cbomc.top/posts/10/</loc>
+        <lastmod>2020-07-02T08:46:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://fxblog.cbomc.top/posts/8/</loc>
         <lastmod>2020-06-30T14:30:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -16,7 +24,15 @@
     </url>
 
     <url>
-        <loc>http://fxblog.cbomc.top/posts/00008/</loc>
+        <loc>http://fxblog.cbomc.top/posts/9/</loc>
+        <lastmod>2020-06-30T14:16:35.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://fxblog.cbomc.top/posts/00009/</loc>
         <lastmod>2020-06-29T09:12:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -24,7 +40,7 @@
     </url>
 
     <url>
-        <loc>http://fxblog.cbomc.top/posts/7/</loc>
+        <loc>http://fxblog.cbomc.top/posts/00008/</loc>
         <lastmod>2020-06-28T11:46:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -32,7 +48,7 @@
     </url>
 
     <url>
-        <loc>http://fxblog.cbomc.top/posts/6/</loc>
+        <loc>http://fxblog.cbomc.top/posts/7/</loc>
         <lastmod>2020-06-27T13:39:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -50,14 +66,6 @@
     <url>
         <loc>http://fxblog.cbomc.top/posts/5/</loc>
         <lastmod>2020-06-26T06:52:45.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://fxblog.cbomc.top/posts/4/</loc>
-        <lastmod>2020-06-21T11:16:35.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -82,14 +90,6 @@
     <url>
         <loc>http://fxblog.cbomc.top/posts/2/</loc>
         <lastmod>2020-05-13T09:53:45.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://fxblog.cbomc.top/posts/55821/</loc>
-        <lastmod>2020-04-15T05:56:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
