@@ -4,14 +4,14 @@
 
     <url>
         <loc>http://fxblog.cbomc.top/tags/Mustom/</loc>
-        <lastmod>2020-07-02T08:46:45.000Z</lastmod>
+        <lastmod>2021-12-15T11:23:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://fxblog.cbomc.top/tags/%25E6%2595%25B0%25E6%258D%25AE%25E5%25BB%25BA%25E6%25A8%25A1/</loc>
-        <lastmod>2020-06-30T14:30:45.000Z</lastmod>
+        <loc>http://fxblog.cbomc.top/tags/OpenCV/</loc>
+        <lastmod>2020-07-29T06:40:35.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -26,6 +26,13 @@
     <url>
         <loc>http://fxblog.cbomc.top/tags/%25E6%2595%25B0%25E6%258D%25AE%25E5%258F%25AF%25E8%25A7%2586%25E5%258C%2596/</loc>
         <lastmod>2020-06-29T09:12:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://fxblog.cbomc.top/tags/%25E6%2595%25B0%25E6%258D%25AE%25E5%25BB%25BA%25E6%25A8%25A1/</loc>
+        <lastmod>2020-06-28T11:46:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
